@@ -235,7 +235,8 @@ body {
     background-image: url("img/back-fir.png");
     background-position: top center;
     background-repeat: no-repeat;
-    font-family: "Commissioner", sans-serif;
+    font-family: "Commissioner", Arial, Helvetica, sans-serif;
+;
     margin: 0;
 }
 
@@ -324,6 +325,7 @@ body {
 
 .message__link {
     margin: 0 3px;
+    text-decoration: none;
 }
 
 .message__link:hover {
@@ -437,7 +439,7 @@ h1 {
     line-height: 66px;
     color: #141414;
     font-weight: 600;
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
     margin: 50px 0 81px;
 }
 
@@ -562,7 +564,7 @@ h2 {
     font-size: 42px;
     color: #e34d2c;
     font-weight: 600;
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
 }
 
 footer {
@@ -612,7 +614,7 @@ footer:before {
     letter-spacing: 0;
     line-height: 54px;
     font-weight: 700;
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
     margin-bottom: 22px;
 }
 
@@ -945,6 +947,78 @@ footer:before {
 
     .rights {
         margin-top: 20px;
+    }
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+
+    body {
+        background-image: url("img/back-fir-x2.png");
+    }
+
+    .back-left {
+        background-image: url("img/back-left-x2.png");
+    }
+
+    .back-right {
+        background-image: url("img/back-right-x2.png");
+    }
+
+    .btn {
+        background-image: url("img/btn-back-x2.png");
+    }
+
+    .back-tape {
+        background-image: url("img/back-tape-x2.png");
+    }
+
+    .back-bow {
+        background-image: url("img/back-bow-x2.png");
+    }
+
+    .top-block__description:before {
+        background-image: url("img/present-x2.png");
+    }
+
+    .btn-max {
+        background-image: url("img/btn-back-max-x2.png");
+    }
+
+    .top-block__book:after {
+        background-image: url("img/book-x2.png");
+    }
+
+    .top-block__link:after {
+        background-image: url("img/download-x2.png");
+    }
+
+
+    .back-tape-red {
+        background-image: url("img/back-tape-red-x2.png");
+    }
+
+    .back-tape-yellow {
+        background-image: url("img/back-tape-yellow-x2.png");
+    }
+
+    footer {
+        background-image: url("img/back-fir-bottom-x2.png");
+    }
+
+    footer:before {
+        background-image: url("img/rhomb-x2.png");
+    }
+
+    .footer__label__logo {
+        background-image: url("img/logo-mini-x2.png");
+    }
+
+    .address__loc:before {
+        background-image: url("img/loc-x2.png");
+    }
+
+    .address__mail:before {
+        background-image: url("img/mail-x2.png");
     }
 
 
